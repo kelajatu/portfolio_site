@@ -31,3 +31,15 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+const options = {
+  strings: ["Developer.", "Software Engineer.", "Consultant."],
+  typeSpeed: 80,
+  loop: true,
+  loopCount: null,
+  fadeOut: true,
+  fadeOutClass: "typed-fade-out",
+  fadeOutDelay: 500
+};
+
+var typed = new Typed(".element", options);
