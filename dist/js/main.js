@@ -1,5 +1,4 @@
 // Selected DOM Items
-
 const menuBtn = document.querySelector(".menu-btn");
 const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
@@ -7,7 +6,6 @@ const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
 
 // Set initial State of Menu
-
 let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
@@ -32,9 +30,10 @@ function toggleMenu() {
   }
 }
 
+// Typed.js configuration
 const options = {
   strings: ["Developer.", "Software Engineer.", "Consultant."],
-  typeSpeed: 80,
+  typeSpeed: 70,
   loop: true,
   loopCount: null,
   fadeOut: true,
