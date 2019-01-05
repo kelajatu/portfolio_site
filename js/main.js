@@ -32,8 +32,8 @@ function toggleMenu() {
 
 // Typed.js configuration
 const options = {
-  strings: ["Developer.", "Software Engineer.", "Consultant."],
-  typeSpeed: 70,
+  strings: ["Developer.", "Software Engineer.", "Entrepreneur."],
+  typeSpeed: 65,
   loop: true,
   loopCount: null,
   fadeOut: true,
@@ -41,4 +41,4 @@ const options = {
   fadeOutDelay: 500
 };
 
-var typed = new Typed(".element", options);
+const typed = new Typed(".element", options);
