@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "index.js",
-  "homepage": "https://kelajatu.github.io/portfolio_site",
+  "homepage": "https://kelajatu.github.io/portfolio_site/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
@@ -11,7 +11,7 @@
   "author": "Jurgen Kela",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "typed.js": "^2.0.9"
   }
